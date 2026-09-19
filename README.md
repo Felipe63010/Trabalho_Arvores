@@ -1,6 +1,6 @@
 # Estruturas em Árvores Avançadas
 
-Trabalho Prático Individual I — modelagem, implementação e análise comparativa de cinco estruturas de dados hierárquicas não convencionais: **trie**, **árvore Patricia** (radix tree compacta), **árvore splay**, **treap** e **KD-Tree**[cite: 1]. As implementações são comparadas entre si e com duas estruturas de referência, a **árvore binária de busca (BST)** e a **árvore AVL**[cite: 1].
+Trabalho Prático Individual I — modelagem, implementação e análise comparativa de cinco estruturas de dados hierárquicas não convencionais: **trie**, **árvore Patricia** (radix tree compacta), **árvore splay**, **treap** e **KD-Tree**. As implementações são comparadas entre si e com duas estruturas de referência, a **árvore binária de busca (BST)** e a **árvore AVL**[cite: 1].
 
 ---
 
@@ -22,8 +22,8 @@ Trabalho Prático Individual I — modelagem, implementação e análise compara
 
 ## Requisitos
 
-- Python 3.10 ou superior (desenvolvido e medido em CPython 3.12.3)[cite: 1]
-- `matplotlib` e `pillow`, usados na geração das figuras e dos gráficos experimentais — **o núcleo das estruturas, em `src/`, não depende de bibliotecas externas**[cite: 2]
+- Python 3.10 ou superior (desenvolvido e medido em CPython 3.12.3)
+- `matplotlib` e `pillow`, usados na geração das figuras e dos gráficos experimentais — **o núcleo das estruturas, em `src/`, não depende de bibliotecas externas**.
 
 ```bash
 python3 -m pip install -r requirements.txt
@@ -37,7 +37,7 @@ python3 -m pip install -r requirements.txt
 python3 run_all.py
 ```
 
-O roteiro executa, nesta ordem: testes automatizados, demonstração textual, figuras de rastreamento visual, bateria de experimentos e gráficos de resultados[cite: 1, 2]. A execução leva cerca de quatro minutos, quase todos consumidos pelos experimentos[cite: 1].
+O roteiro executa, nesta ordem: testes automatizados, demonstração textual, figuras de rastreamento visual, bateria de experimentos e gráficos de resultados. A execução leva cerca de quatro minutos, quase todos consumidos pelos experimentos.
 
 Cada etapa também pode ser executada isoladamente:
 
